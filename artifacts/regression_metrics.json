@@ -1,0 +1,19 @@
+{
+  "mean_baseline": {
+    "mae": 2.3239259444444444,
+    "rmse": 2.8387346700012266,
+    "r2": -0.01688716448115657
+  },
+  "linear_regression": {
+    "mae": 0.8002039211644071,
+    "rmse": 1.001633319471911,
+    "r2": 0.873397964686358
+  },
+  "random_forest_regressor": {
+    "mae": 0.9814911285263357,
+    "rmse": 1.2050946209761513,
+    "r2": 0.8167409387210842
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "Selected the candidate with lower held-out test RMSE; the mean baseline is retained for comparison."
+}

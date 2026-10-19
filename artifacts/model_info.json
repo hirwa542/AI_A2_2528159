@@ -1,0 +1,21 @@
+{
+  "full_name": "Hirwa Honorine",
+  "registration_number": "25/28159",
+  "student_id": "ug2528159@ines.ac.rw",
+  "seed": 8159,
+  "verification_code": "AI-A2-8159",
+  "dataset_sha256": "edd166f4a2b1c06b261363a6ba40f8140ece2c7fe50bfbcca2a4ecc139ad9e7d",
+  "regression_model": "linear_regression",
+  "classification_model": "logistic_regression",
+  "selected_cluster_count": 2,
+  "dataset_rows_after_deduplication": 240,
+  "features": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support"
+  ]
+}

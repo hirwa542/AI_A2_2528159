@@ -1,0 +1,72 @@
+{
+  "scores_by_k": {
+    "2": {
+      "silhouette_score": 0.1585937462021378,
+      "inertia": 983.8882911091356
+    },
+    "3": {
+      "silhouette_score": 0.1350643966923309,
+      "inertia": 895.31454445085
+    },
+    "4": {
+      "silhouette_score": 0.14625080633792617,
+      "inertia": 817.4409602306476
+    },
+    "5": {
+      "silhouette_score": 0.14275878759101956,
+      "inertia": 757.0466636756752
+    },
+    "6": {
+      "silhouette_score": 0.14474720768127208,
+      "inertia": 710.2476639016224
+    }
+  },
+  "selected_k": 2,
+  "selection_reason": "Selected K with the highest silhouette score measured on the training fold.",
+  "profiles": [
+    {
+      "cluster": 0,
+      "farms": 120,
+      "feature_means": {
+        "rainfall_mm": 986.782,
+        "avg_temp_c": 19.302,
+        "soil_moisture_pct": 52.478,
+        "fertilizer_kg": 114.16,
+        "field_size_ha": 2.034,
+        "cooperative_support": 0.0
+      },
+      "season_counts": {
+        "A": 62,
+        "B": 58
+      },
+      "plain_language_profile": "A larger group of records with higher average soil moisture, lower fertilizer use, and smaller field size. These are descriptive patterns in synthetic data, not causal findings."
+    },
+    {
+      "cluster": 1,
+      "farms": 120,
+      "feature_means": {
+        "rainfall_mm": 1017.574,
+        "avg_temp_c": 18.885,
+        "soil_moisture_pct": 48.446,
+        "fertilizer_kg": 131.144,
+        "field_size_ha": 2.068,
+        "cooperative_support": 1.0
+      },
+      "season_counts": {
+        "B": 64,
+        "A": 56
+      },
+      "plain_language_profile": "A larger group of records with lower average soil moisture, higher fertilizer use, and smaller field size. These are descriptive patterns in synthetic data, not causal findings."
+    }
+  ],
+  "features_used": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "soil_moisture_pct",
+    "fertilizer_kg",
+    "field_size_ha",
+    "season",
+    "cooperative_support"
+  ],
+  "targets_excluded": true
+}

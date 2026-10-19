@@ -1,0 +1,25 @@
+{
+  "rows_before_deduplication": 243,
+  "duplicate_rows": 3,
+  "missing_values_by_column": {
+    "rainfall_mm": 0,
+    "avg_temp_c": 0,
+    "soil_moisture_pct": 13,
+    "fertilizer_kg": 13,
+    "field_size_ha": 0,
+    "season": 0,
+    "cooperative_support": 0,
+    "yield_tons": 0,
+    "high_risk": 0
+  },
+  "range_violations": {},
+  "required_columns_present": true,
+  "targets_excluded_from_features": true,
+  "rows_after_deduplication": 240,
+  "duplicates_removed": 3,
+  "rows_with_any_missing_value": 23,
+  "fingerprint_sha256": "edd166f4a2b1c06b261363a6ba40f8140ece2c7fe50bfbcca2a4ecc139ad9e7d",
+  "student_id": "ug2528159@ines.ac.rw",
+  "seed": 8159,
+  "verification_code": "AI-A2-8159"
+}

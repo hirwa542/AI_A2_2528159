@@ -1,0 +1,4 @@
+Student ID: ug2528159@ines.ac.rw
+Seed: 8159
+Verification code: AI-A2-8159
+SHA-256: edd166f4a2b1c06b261363a6ba40f8140ece2c7fe50bfbcca2a4ecc139ad9e7d
